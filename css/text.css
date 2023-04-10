@@ -1,0 +1,40 @@
+#text
+{
+    width: 500px;
+    height: 500px;
+    border: 2px black solid;
+
+    /* text-align: center; */
+    /* text-align: justify; */
+    /* text-align: right; */
+
+    /* direction: rtl;
+     */
+     /* text-decoration: underline; */
+     /* text-decoration: line-through; */
+     text-transform: capitalize;
+     line-height: 50px;
+     text-indent: 70px;
+     /* letter-spacing: 10px;
+     word-spacing: 10px; */
+     /* white-space:pre-line; */
+     word-wrap: break-word;
+
+}
+img{
+    border: 2px solid;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+#shadow{
+    margin: 50px;
+    font-size: 30px;
+    text-shadow: 5px -5px 5px red;
+}
+
+#text2{
+    width: 500px;
+    border: 2px black solid;
+    writing-mode: vertical-rl;
+}

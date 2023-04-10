@@ -1,0 +1,28 @@
+#bd
+{
+    /* border-style: solid dashed none solid;
+    border-style: solid;
+    border-width: 5px;
+    border-color: blue pink red; */
+
+    border: 5px solid green ;
+/* 
+    border-top-style: solid;
+    border-top-color: green;
+    border-top-width: 5px; */
+
+    background-color: bisque;
+    width: 50%;
+    height: 60%;
+    min-width: 50px;
+    min-height: 70px;
+    max-width: 1000px;
+    max-height: 200px;
+
+
+}
+body{
+    border: 1px solid red;
+    height: 100px;
+    padding: 50px 30px 30px 40px;
+}

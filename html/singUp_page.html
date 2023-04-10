@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/singUp_page.css">
+</head>
+<body>
+    <header>
+        <h1>Js For Begineers</h1>
+    </header>
+    <section class="container">
+        <form action="#" id="my-form">
+            <h1>Add User</h1>
+            <div class="msg"></div>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="mail">Email:</label>
+                <input type="mail" name="mail" id="mail">
+            </div>
+            <button type="submit" class="btn" id="btn">Submit</button>
+            
+        </form>
+        <!-- <ul id="users"></ul>
+        <ul id="items">
+            <li class="item">list-1</li>
+            <li class="item">list-2</li>
+            <li class="item">list-3</li>
+        </ul>
+         -->
+    </section>
+    <script>
+        // let list1 = document.querySelector('#items');
+        // list1.firstElementChild.textContent='HELLO';
+        // list1.firstElementChild.style.color = 'green';
+        // list1.children[1].style.color = 'yellow';
+        let name = document.getElementById('name');
+        let mail = document.getElementById('mail');
+        let btn = document.getElementById('btn');
+        
+        btn.addEventListener('click',function(e){
+            e.preventDefault();
+            
+            localStorage.setItem('name',name.value);
+            localStorage.setItem('email',mail.value);
+        })
+        
+    </script>
+</body>
+</html>

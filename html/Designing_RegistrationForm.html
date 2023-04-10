@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        } */
+        body{
+            background-image: url(/photos/bookcall.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+            /* background-size: contain; */
+            /* background-attachment: fixed; */
+            /* background-position: center; */
+            opacity: 0.9;
+        }
+        #div1{
+            height: 500px;
+            width: 600px;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-inline-start: 400px;
+
+            border: 2px solid orange;
+            border-radius: 3%;
+            background-color:white;
+        }
+        #header{
+            align-items: center;
+        }
+        .input{
+            font:bold;
+            box-sizing: border-box; 
+            border: 2px solid #ccc; 
+            border-radius: 4px; 
+            width:100%;
+            height: 30px;
+        }
+        /* .background{
+            
+            /* margin: 3rem;
+            position: absolute;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 80px;
+            opacity: 0.5;
+            margin-left:200px;
+            color: #ccc; */
+            
+        /*} */
+    </style>
+</head>
+<body>
+    <div id = "div1">
+        <div id="header">
+            <div>
+                <!-- <div class="background">Call</div> -->
+                <h1 style="color:darkorange; text-align: center; text-shadow: 10px 10px #ccc; ">Book a call</h1>
+            </div>
+            <p style="text-align: center;">Book a call slot and our representative will call you within 1hr of selected time</p>
+            <hr>
+        </div><br>
+        <form action="#" onsubmit="onSignUp(event)">
+            <div>
+                <label for="">Name:</label><br>
+                <input type="text" name="name" id="name" class="input" required >
+            </div><br>
+            <div>
+                <label for="">Email:</label><br>
+                <input type="email" name="mail" id="mail" class="input" required>
+            </div><br>
+            <div>
+                <label for="">Phone:</label><br>
+                <input type="number" name="phone" id="phone" class="input" required>
+            </div><br>
+             <div>
+                <label for="">Time for Call:</label>
+                <div>
+                    <input type="date" name="date" id="date" style="width:48%;height: 30px; border: 2px solid #ccc;border-radius: 4px;" required>
+                    <input type="time" name="time" id="time" style="width: 48%;height: 30px; border: 2px solid #ccc;border-radius: 4px;" required>
+                </div>
+            </div>
+            <br>
+            <br>
+            <button type="submit" style="width:100%;height: 30px;background-color: darkorange;color: white;border: 0px;border-radius: 5px;">GET A CALL</button>
+        </form>
+    </div>
+    <script>
+        function onSignUp(event){
+            event.preventDefault();
+            console.log(event.target.name.value);
+            console.log(event.target.mail.value);
+            console.log(event.target.phone.value);
+            console.log(event.target.date.value);
+            console.log(event.target.time.value);
+        };
+    </script>
+</body>
+</html>
+
+<!-- query -->
+
+<!-- how to set text as a background -->
+<!-- how to set any element in center for all type of devices -->

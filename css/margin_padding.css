@@ -1,0 +1,25 @@
+.div1
+{
+    border: 3px solid black;
+    padding: 30px 50px 30px 50px;
+}
+body{
+    border: 5px dotted green;
+}
+#marg{
+    /* margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 50px; */
+    margin: -50px 30px 50px 20px;
+}
+#marg1{
+    width: 100px;
+    margin: 20px auto;
+    margin-top: 50px;
+}
+#colps{
+    margin-bottom: 10px;
+    /* here 2 margins are collaps so for top and bottom max margin will applied. */
+    /* for right and left margin collaps sum of both will apply. */
+}
