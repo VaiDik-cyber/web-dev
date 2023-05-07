@@ -1,36 +1,26 @@
 * {
     padding: 0;
     margin: 0;
+    ;
   }  
+  body{
+    background-color: rgb(246, 241, 241)
+  }
   .container {
     margin: 20px 10px 20px 10px;
   }
   #nav{
-    background-color: beige;
-    /* display: inline; */
-    /* display: inline-block; */
+    background-color: rgb(241, 241, 176);
     display: flex;
     justify-content:space-between;
     height: auto;
   }
   #top{
-    /* position: absolute; */
-    /* float: right; */
     bottom: 0;
     right: 0;
     position: fixed; 
     padding: 10px;
   } 
-
-  #div1 {
-    float:left;
-  }
-  #div3{
-    float: right;
-  }
-  #div2 {
-    float: right;
-  }
   footer{
     width: auto;
     height: auto;
@@ -57,32 +47,16 @@
   @media screen and (max-width: 600px) {
     ul li{
       margin-right: auto;
-    }
-    #div1 {
-
-    }
-    #div2 {
-
+      padding: auto;
     }
     nav{
       width: auto;
     };
   }
   @media screen and (max-width: 400px){
-    #div1{
-      width: auto;
-    }
-    #div2{
-      width: auto;
-    }
-    nav{
-      width: auto;
-    }
     ul li{
       margin-right: auto;
+      margin-top: 20px;
       padding: 10px;
     }
   }
-  /* table{
-    margin: 50%;
-  } */
