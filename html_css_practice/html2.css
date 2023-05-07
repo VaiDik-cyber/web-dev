@@ -24,11 +24,12 @@
 
   #div1 {
     float:left;
-    width: 200px;
+  }
+  #div3{
+    float: right;
   }
   #div2 {
     float: right;
-    width: 200px;
   }
   footer{
     width: auto;
@@ -43,10 +44,45 @@
     justify-content: space-between;
   }
   ul li{
-    padding: 2px 10px 2px 10px;
+    margin-right: 50px;
+    display: block;
+    text-align: center;
+    padding: 30px;
   }
   #logo{
     top: 0;
     left: 0;
     /* position: fixed; */
   }
+  @media screen and (max-width: 600px) {
+    ul li{
+      margin-right: auto;
+    }
+    #div1 {
+
+    }
+    #div2 {
+
+    }
+    nav{
+      width: auto;
+    };
+  }
+  @media screen and (max-width: 400px){
+    #div1{
+      width: auto;
+    }
+    #div2{
+      width: auto;
+    }
+    nav{
+      width: auto;
+    }
+    ul li{
+      margin-right: auto;
+      padding: 10px;
+    }
+  }
+  /* table{
+    margin: 50%;
+  } */
