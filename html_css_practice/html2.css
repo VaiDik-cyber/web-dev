@@ -44,7 +44,7 @@
     left: 0;
     /* position: fixed; */
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (min-width: 401px) and (max-width: 600px) {
     ul li{
       margin-right: auto;
       padding: auto;
@@ -52,11 +52,18 @@
     nav{
       width: auto;
     };
+    iframe{
+      width: 200px;
+      
+    }
   }
   @media screen and (max-width: 400px){
     ul li{
       margin-right: auto;
       margin-top: 20px;
       padding: 10px;
+    }
+    iframe{
+      width: 100px;
     }
   }
