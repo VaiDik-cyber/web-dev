@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whole Page</title>
+    <style>
+      #outer {
+        display: "flex";
+        justifyContent: "center";
+        alignItems: "center";
+        gap: "20px";
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: rgba(0,0,0,.5);
+        color: #fff;
+        border-radius:5px;
+        box-shadow:rgb(38,57,77) 0px 20px 30px -10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="outer">
+      <header id="main-header">
+        <h1 id="main-title">Log in</h1>
+        <hr />
+      </header>
+      <form action="" onsubmit="submitHandler(event)">
+        <label for="" id="username">UserName:</label>
+        <input type="text" id="User-Name" placeholder="Enter the username" />
+        <label for="" id="password">Password:</label>
+        <input type="password" id="Password" placeholder="Password" />
+        <button id="btn">Log in</button>
+
+        <a href="" id="login" style="color: green"></a>
+        <hr />
+        <a href="forgotp.html">Forgot your Password</a>
+      </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+  </body>
+</html>
