@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Whole Page</title>
     <style>
-      #outer {
+      /* #outer {
         display: "flex";
         justifyContent: "center";
         alignItems: "center";
@@ -18,11 +18,18 @@
         color: #fff;
         border-radius:5px;
         box-shadow:rgb(38,57,77) 0px 20px 30px -10px;
+      } */
+      th,td{
+        padding: 10px;
+        /* border: 1px solid #111010; */
+        /* display: "flex";
+        justify-content: "center";
+        align-items: center; */
       }
     </style>
   </head>
   <body>
-    <div id="outer">
+    <!-- <div id="outer">
       <header id="main-header">
         <h1 id="main-title">Log in</h1>
         <hr />
@@ -38,7 +45,28 @@
         <hr />
         <a href="forgotp.html">Forgot your Password</a>
       </form>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+    </div> -->
+    <table border="20" style="padding: 10px;" cellSpacing="0">
+      <tr>
+        <th></th>
+        <th>column1</th>
+        <th>column2</th>
+        <th>column3</th>
+      </tr>
+      <tr>
+        <th>name</th>
+        <td>vaidik</td>
+        <td>rahul</td>
+        <td>dugu</td>
+      </tr>
+      <tr>
+        <th>age</th>
+        <td>23</td>
+        <td>23</td>
+        <td>22</td>
+      </tr>
+
+    </table>
+    <script src="index.js"></script>
   </body>
 </html>
